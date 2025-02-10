@@ -5,7 +5,7 @@ function checkAnswer() {
     const userAnswer = Number(radioButtons.value) // this one converts the value obtained from one of the input fields/radio button from string to integer
 
     // if what the user selected is equal to the actual correct answer
-    if ( userAnswer === correctAnswer ) {
+    if (userAnswer === correctAnswer) {
         document.querySelector('#feedback').textContent = "Correct! Well done."
     } else {
         document.querySelector('#feedback').textContent = "That's incorrect. Try again!"
